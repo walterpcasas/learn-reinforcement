@@ -3,3 +3,10 @@ pandas
 matplotlib
 seaborn
 scikit-learn
+
+gymnasium
+gymnasium[box2d]
+gymnasium[classic-control]
+gymnasium[mujoco]
+
+stable-baselines3
