@@ -16,7 +16,7 @@ print(f"Using {device} device")
 MODEL_NAME = "model/policy_cartpole_modified.pt"
 RESULT_REWARD = "result/returns_modified.png"
 RESULT_LENGTH = "result/lengths_modified.png"
-NRO_EPISODES = 500
+NRO_EPISODES = 1000
 
 
 # --------------- RL Algorithm ----------------

@@ -11,10 +11,10 @@ print(f"Using {device} device")
 
 
 # --------------- Variables -------------------
-MODEL_NAME = "model/policy_cartpole_frompy.pt"
+MODEL_NAME = "model/policy_cartpole_base.pt"
 RESULT_REWARD = "result/returns_base.png"
 RESULT_LENGTH = "result/lengths_base.png"
-NRO_EPISODES = 500
+NRO_EPISODES = 1000
 
 
 # --------------- RL Algorithm ----------------

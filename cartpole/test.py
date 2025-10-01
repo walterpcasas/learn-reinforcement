@@ -7,7 +7,7 @@ import gymnasium as gym
 import torch
 from torch import nn
 
-MODEL_WEIGHTS = "model/policy_cartpole_modified.pt"
+MODEL_WEIGHTS = "model/policy_cartpole_base.pt"
 
 
 device = torch.accelerator.current_accelerator().type if torch.accelerator.is_available() else "cpu"
